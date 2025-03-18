@@ -3,7 +3,7 @@ package models;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 
-public class EquiposData {
+public class EquiposService {
     @JsonProperty("equipos")
     private List<Equipo> equipos;
 
